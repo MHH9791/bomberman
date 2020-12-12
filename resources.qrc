@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/map_2.png</file>
+        <file>image/map_3.png</file>
+        <file>image/map_4.jpg</file>
+        <file>image/worldmap.png</file>
+        <file>image/maze1.png</file>
+        <file>image/maze2.png</file>
+        <file>image/maze3.png</file>
+        <file>image/worldmap4.png</file>
+        <file>image/blocked.png</file>
+        <file>image/star.png</file>
+        <file>image/con2.gif</file>
+        <file>image/congratulation.gif</file>
+        <file>image/tryagain.gif</file>
+        <file>image/yellow_star.png</file>
+        <file>image/attack.png</file>
+        <file>image/enemy.png</file>
+        <file>image/healthpack.png</file>
+        <file>image/meetHealth.png</file>
+        <file>image/pPosion.png</file>
+        <file>image/protg.png</file>
+        <file>image/dead.svg</file>
+        <file>image/zenemy.png</file>
+        <file>image/xenemy.png</file>
+        <file>image/penemy.png</file>
+        <file>image/posion.png</file>
+        <file>image/getPoisoned.png</file>
+    </qresource>
+</RCC>

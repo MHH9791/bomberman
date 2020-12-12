@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="246.9451" height="235.09441" id="svg2" version="1.1" inkscape:version="0.47 r22583" sodipodi:docname="mumia abu jamal.svg">
+  <defs id="defs4">
+    <inkscape:perspective sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 526.18109 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="744.09448 : 526.18109 : 1" inkscape:persp3d-origin="372.04724 : 350.78739 : 1" id="perspective10"/>
+    <inkscape:perspective id="perspective2824" inkscape:persp3d-origin="0.5 : 0.33333333 : 1" inkscape:vp_z="1 : 0.5 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_x="0 : 0.5 : 1" sodipodi:type="inkscape:persp3d"/>
+  </defs>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="1.0987013" inkscape:cx="170.39066" inkscape:cy="106.96378" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="false" inkscape:window-width="1024" inkscape:window-height="675" inkscape:window-x="-4" inkscape:window-y="40" inkscape:window-maximized="1"/>
+  <g inkscape:label="Ebene 1" inkscape:groupmode="layer" id="layer1" transform="translate(-275.32363,-422.2391)">
+    <path sodipodi:type="star" style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none" id="path2842" sodipodi:sides="5" sodipodi:cx="56.43026" sodipodi:cy="66.47052" sodipodi:r1="88.192169" sodipodi:r2="35.276867" sodipodi:arg1="0.80729247" sodipodi:arg2="1.435611" inkscape:flatsided="false" inkscape:rounded="0" inkscape:randomized="0" d="M 117.41135,130.1821 61.184662,101.42553 14.681136,144.15494 24.655257,81.793919 -30.353205,50.77055 32.037826,40.985888 44.544253,-20.917017 73.129909,35.396752 135.86777,28.162022 91.143645,72.750508 117.41135,130.1821 z" transform="matrix(1.4592709,0.19389468,-0.19389468,1.4592709,329.46132,444.1258)"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Open Clip Art Library</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>red star</dc:title>
+        <dc:date>2010-12-31T17:15:10</dc:date>
+        <dc:description/>
+        <dc:source>http://openclipart.org/detail/102793/red-star-by-worker</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>worker</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>red</rdf:li>
+            <rdf:li>revolution</rdf:li>
+            <rdf:li>socialism</rdf:li>
+            <rdf:li>star</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
