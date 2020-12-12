@@ -98,7 +98,6 @@ void MainWindow:: initGraphicView()
             //code for Xenemy could be added later
     }
     ui->graphicsView->setScene(scene);
-//    ui->graphicsView->hide();
 }
 
 void MainWindow:: showPathOnGraph(shared_ptr<pathFinder::aNode> s)
@@ -111,7 +110,6 @@ void MainWindow:: showPathOnGraph(shared_ptr<pathFinder::aNode> s)
 
 void MainWindow:: deletePathOnGraph()
 {
-//    cout<< "enter delete" <<endl;
     for(auto & s : scene->items())
         {
             auto dummy = s;
@@ -1201,6 +1199,7 @@ void MainWindow::on_save_clicked()
 void MainWindow::on_load_clicked()
 {
     ctl->loadGame();
+    update_dead_enemy();
 }
 
 bool MainWindow::getToggle() const
