@@ -5,8 +5,8 @@
 #include <QKeyEvent>
 
 double static WORLDMODELSIZE = 600;
-const int text_width {30};
-const int text_height {20};
+const int text_width {25};
+const int text_height {16};
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -64,20 +64,6 @@ void MainWindow:: initGraphicView()
         healthpack->setPos(it->getXPos()*scaleFactor, it->getYPos()*scaleFactor);
         healthpack->setZValue(1.2);
     }
-
-//    for (auto & it : model->getPoisoned_tiles()) {
-//        g_pTiles * pTiles = new g_pTiles();
-//        scene->addItem(pTiles);
-//        pTiles->setPos(it->getXPos()*scaleFactor, it->getYPos()*scaleFactor);
-//        pTiles->setZValue(1.1);
-//    }
-
-//    for (auto & it : model->getBlocked_tiles()) {
-//        g_bTiles * bTiles = new g_bTiles();
-//        scene->addItem(bTiles);
-//        bTiles->setPos(it->getXPos()*scaleFactor, it->getYPos()*scaleFactor);
-//        bTiles->setZValue(1.1);
-//    }
 
     for(auto & e: model->get_model_enemies())
     {
@@ -271,38 +257,6 @@ void MainWindow:: updateTextView()
     }
 }
 
-//void MainWindow:: updateTextView()
-//{
-//    if(toggle)
-//    {
-//        int row=model->getRows();
-//        int col=model->getCols();
-//        QString final_text="";
-//        int index=0;
-
-//        for(int row_index=0;row_index<=2*row;row_index++)
-//        {
-//            for(int col_index=0;col_index<=col;col_index++)
-//            {
-//                if(col_index==col)
-//                {
-//                    if(row_index%2==1)
-//                        final_text.append("|\n");
-//                    else
-//                        final_text.append("—\n");
-//                }
-//                else
-//                {
-//                    final_text.append(*textVector[index++]);
-//                }
-//            }
-//        }
-
-//        ui->textBrowser->setText(final_text);
-//    }
-
-//}
-
 void MainWindow:: showWholeTextView()
 {
     if(toggle)
@@ -361,22 +315,7 @@ void MainWindow::on_downButton_clicked()
 
 void MainWindow::on_rightButton_clicked()
 {
-//    int isMoving=ctl->moveRight();
-//    if(isMoving)
-//    {
-//        cout<<"aaaaa"<<endl;
-//        int col=model->getCols();
-//        auto new_tile=make_shared<t_tile>();
-//        auto new_protg=make_shared<t_protagonist>();
-//        textVector[(2*current_y+1)*col+current_x+1]=new_protg;
-//        textVector[(2*current_y+1)*col+current_x]=new_tile;
-//        current_x=model->getProtg()->getXPos();
-//        current_y=model->getProtg()->getYPos();
-//        updateTextView();
-//    }
     ctl->moveRight();
-
-
 }
 
 void MainWindow::updateOldlocation(int x, int y)
@@ -483,9 +422,6 @@ void MainWindow::update_dead_enemy()
     {
         if(e->getDefeated())
         {
-//            e->setValue(numeric_limits<float>::infinity());
-//            ctl->getPf()->nodes[e->getYPos()*model->getCols()+e->getXPos()]->value=numeric_limits<float>::infinity();
-//            ctl->getPf()->nodes[e->getYPos()*model->getCols()+e->getXPos()]->wall=true;
             if(typeid(*e)==typeid(Enemy))
             {
                 auto new_dead_enemy=make_shared<t_defeated_enemy>();
@@ -522,12 +458,6 @@ void MainWindow::update_XEnemy(XEnemy* xe)
 
     for(auto & x : scene->items())
         {
-//        if(x->x()==(xe->getXPos()*scaleFactor) && x->y()==(xe->getYPos()*scaleFactor))
-//        {
-//            scene->removeItem(x);
-//            delete x;
-//            break;
-//        }
             auto dummy = x;
             if(typeid(g_xEnemy).name()==typeid (*dummy).name())
             {

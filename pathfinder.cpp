@@ -170,7 +170,7 @@ void pathFinder::findPath(int xStart, int yStart, int xEnd, int yEnd)
         }
 
         currentNode = openList.top();      //assign the best one //start assigned twice!!!
-        currentNode->closed = true;  //move this to back???
+        currentNode->closed = true;
         if(currentNode == end){        //stop as soon as we found the first path.
             retracePath(start, end);   //compare x and y.
             path_found = true;

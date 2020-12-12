@@ -13,7 +13,7 @@ public:
 class t_boundary:public textComponent{
 public:
     t_boundary()
-        :textComponent("——")
+        :textComponent("——")    //—
     {}
     ~t_boundary(){};
 };
@@ -22,7 +22,7 @@ class t_tile:public textComponent
 {
 public:
     t_tile()
-        :textComponent("|      ")
+        :textComponent("|       ")
     {}
     ~t_tile(){};
 };
@@ -31,7 +31,7 @@ class t_black_tile:public textComponent
 {
 public:
     t_black_tile()
-        :textComponent("|  :   ")
+        :textComponent("|   :   ")
 
     {}
     ~t_black_tile(){};

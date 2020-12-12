@@ -15,7 +15,7 @@ class pathFinder
 {
 private:
     shared_ptr<gameModel> model;
-    float heuristicWeight {0.0f};
+    float heuristicWeight {10.0f};
     bool path_found = false;
 
 public:
